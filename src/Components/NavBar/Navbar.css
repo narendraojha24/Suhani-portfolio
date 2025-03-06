@@ -1,0 +1,40 @@
+.nabvar{
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:20px 170px;
+}
+.nav-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style:none;
+    gap:60px;
+    font-size:20px;
+}
+.nav-connect{
+    /*display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style:none;
+    gap:20px;
+    font-size:20px;*/
+    padding:20px 40px;
+    border-radius: 50px;
+   
+
+
+
+    transition:0.5s;
+    font-size:22px;
+    cursor:pointer;
+}
+
+.nav-connect:hover{
+    background-color: #555;
+    color: white;
+    transform: scale(1.05);
+}
