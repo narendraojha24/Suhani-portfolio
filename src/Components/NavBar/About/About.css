@@ -54,16 +54,40 @@
 .about-skills{
     display:flex;
     gap:20px;
-    font-size:20px;
-    font-weight:500;
+    /*font-size:20px;
+    font-weight:500;*/
     flex-direction: column;
 }
 
 .about-skill{
     display:flex;
     gap:20px;
-    font-size:20px;
+    /*font-size:20px;*/
     
     transition:0.3s;
     align-items:center;
+}
+
+.about-skill p{
+    font-size:24px;
+    min-width: 24px;
+    font-weight: 500;
+    width: 150px; /* Ensures consistent width for text */
+    text-align: left;
+    margin: 0;
+}
+.about-skill hr{
+    
+    outline:none;
+   border:none;
+   margin: 20px 0;
+   width:50%;
+   height:8px;
+   border-radius: 50px;
+   background: linear-gradient(264deg,#DF8908 -5.09% , #B415FF 106.28%); 
+}
+
+.about-skill:hover {
+   transform: scale(1.05);
+   transition:0.3s;
 }
