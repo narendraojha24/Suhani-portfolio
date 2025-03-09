@@ -1,9 +1,10 @@
 import React from 'react';
 import './Hero.css';  // ✅ Corrected CSS import
+import AnchorLink from 'react-anchor-link-smooth-scroll';  // ✅ Corrected import
 
 const Hero = () => {
   return (
-    <div className="hero">
+    <div id="home" className="hero">
 //<img src="" alt="Profile" />
       <h1>Hi, I'm Suhani Pal</h1>
       <h2>🚀 Tech Stack</h2>
@@ -29,7 +30,7 @@ const Hero = () => {
           alt="C++"
         />
         <div className="hero-action">
-            <div className="hero-connect">Connect with me</div>
+            <div className="hero-connect"><AnchorLink className='anchor-link' offset={50} href='#contact'>Connect with me</AnchorLink></div>
             <div className="hero-resume">My resume</div>
         </div>
       </div>
